@@ -1,8 +1,10 @@
-import sys
-import pickle
+import argparse
 import os
-from modules.instagramLinksExtractor import InstagramLinksExtractor
+import pickle
+import sys
+
 from modules.instagramBot import InstagramBot
+from modules.instagramLinksExtractor import InstagramLinksExtractor
 
 
 class Main:
@@ -19,6 +21,8 @@ class Main:
         #column_name = input("Digite o nome da coluna que contem o site (o nome tem que ser identico): \n") 
         self.column_name= "Website"
         self.file_path+='a.csv'
+        self.txtInput=''
+        self.listMessage=[]
         if(os.path.exists(self.fileInput_path)):
             with open(self.fileInput_path, 'r') as f:
                 self.txtInput = f.read()
@@ -36,10 +40,15 @@ class Main:
             print('\n\n')
             exit()
 
-    def run(self):
+    def handleInput(self):
+        self.listMessage=self.txtInput.split("\\fim")
+    def run(self, login):
+        
         self.input()
-        print("certo")
-        return
+        self.handleInput()
+        print(len(self.listMessage)-1)
+        
+        #return
         try:
             nstagramLinksExtractor = InstagramLinksExtractor(self.file_path, self.column_name)
             new_csv = nstagramLinksExtractor.extract_links()
@@ -48,11 +57,14 @@ class Main:
         print()
 
 
-        instagramBot = InstagramBot()
+        instagramBot = InstagramBot(listMessage=self.listMessage, login=login)
         instagramBot.run(file_csv=new_csv)
 
     
 
-
+parser= argparse.ArgumentParser()
+parser.add_argument('--login', action='store_true' ,help='Argumento para usar fazer login no instagram')
+args = parser.parse_args()
+print(args.login)
 main = Main()
-main.run()
+main.run(login=args.login)
