@@ -1,51 +1,70 @@
-[87938:87938:0420/134849.904525:WARNING:chrome_main_delegate.cc(594)] This is Chrome version 112.0.5615.121 (not a warning)
-[87938:87938:0420/134850.075049:INFO:chrome_browser_cloud_management_controller.cc(167)] Starting CBCM Controller Initialization
-[87938:87938:0420/134850.075210:INFO:chrome_browser_cloud_management_controller.cc(195)] No machine level policy manager exists.
-[87938:87938:0420/134850.159879:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
-[87982:87982:0420/134850.197274:WARNING:sandbox_linux.cc(393)] InitializeSandbox() called with multiple threads in process gpu-process.
-[87982:87982:0420/134850.204422:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.204564:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.204669:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205079:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205172:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205284:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205407:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205514:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205631:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205780:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205879:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.205956:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206044:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206123:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206210:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206286:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206366:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206443:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206520:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206597:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206685:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206768:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206855:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.206936:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207015:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207096:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207176:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207256:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207343:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207420:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207497:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207575:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207674:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207760:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207836:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207911:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.207988:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.208084:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.208166:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87982:87982:0420/134850.208246:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[87938:87938:0420/134851.172364:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
-[87982:87982:0420/134852.933768:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
-[87983:88001:0420/134904.245593:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
-[87983:88003:0420/134904.268366:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
-[87983:88003:0420/134904.268421:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
-[87938:87938:0420/134904.315572:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[32648:32648:0424/144750.247600:WARNING:chrome_main_delegate.cc(594)] This is Chrome version 112.0.5615.49 (not a warning)
+[32648:32648:0424/144750.295162:WARNING:chrome_browser_cloud_management_controller.cc(87)] Could not create policy manager as CBCM is not enabled.
+[32648:32648:0424/144750.443295:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+[32648:32648:0424/144750.449643:WARNING:account_consistency_mode_manager.cc(70)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[32763:32763:0424/144750.553972:WARNING:sandbox_linux.cc(393)] InitializeSandbox() called with multiple threads in process gpu-process.
+[32763:32763:0424/144750.559306:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.559455:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.559559:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.559657:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.559761:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.559854:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.559948:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560042:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560137:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560231:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560325:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560419:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560522:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560617:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560712:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560850:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.560986:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561111:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561228:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561324:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561420:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561517:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561609:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561702:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561795:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561889:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.561982:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562088:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562190:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562285:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562378:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562472:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562566:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562662:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562768:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562872:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.562979:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.563081:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.563184:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32763:32763:0424/144750.563285:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[32648:32648:0424/144750.671125:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[32648:32758:0424/144757.904563:ERROR:udev_watcher.cc(98)] Failed to begin udev enumeration.
+[32648:32648:0424/145054.198830:INFO:CONSOLE(59)] "ErrorUtils caught an error:
+
+Got unexpected null or undefined
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yY/r/sTSp8tIBRL-.js?_nc_x=Ij3Wp8lg5Kz (59)
+[32648:32648:0424/150740.878639:INFO:CONSOLE(59)] "ErrorUtils caught an error:
+
+We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yY/r/sTSp8tIBRL-.js?_nc_x=Ij3Wp8lg5Kz (59)
+[32648:32648:0424/150747.369437:INFO:CONSOLE(59)] "ErrorUtils caught an error:
+
+We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yY/r/sTSp8tIBRL-.js?_nc_x=Ij3Wp8lg5Kz (59)
+[32648:32648:0424/150759.887173:INFO:CONSOLE(59)] "ErrorUtils caught an error:
+
+We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yY/r/sTSp8tIBRL-.js?_nc_x=Ij3Wp8lg5Kz (59)
+[32764:32784:0424/150805.898446:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
+[32764:32784:0424/150805.898566:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
+[32648:32648:0424/150805.919378:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

@@ -2,12 +2,14 @@ import os
 import sys
 import re
 import requests
+import datetime
 from bs4 import BeautifulSoup
 import pandas as pd
 
 class InstagramLinksExtractor:
     
-    def __init__(self, file_path, column_name):
+    def __init__(self, file_path, column_name, log):
+        self.log=log
         self.file_path = file_path
         self.column_name = column_name
     
@@ -16,11 +18,18 @@ class InstagramLinksExtractor:
         try:
             df = pd.read_csv(self.file_path)
             urls = (df[self.column_name])
-        except:
+        except Exception as e:
+            with open(self.log, 'a') as log:
+                now = datetime.datetime.now()
+                hour = now.strftime("%d/%m/%Y %H:%M")    
+                log.write('\n\n\n\t\t' + hour + '\tInstagramLinksExtractor>extract_links')
+                log.write('\nErro ao ler arquivo \n')
+                log.write('\n' + str(e.args))
+            
             print("\n\nErro, verifique se o caminho e a coluna foi digitada corretamente", file=sys.stderr)
-            print("extract_links>read_cvs-urls\n\n", file=sys.stderr)
+            print("InstagramLinksExtractor>extract_links\n\n", file=sys.stderr)
 
-            return
+            exit()
 
         
         # Cria uma lista para armazenar os links do Instagram encontrados
@@ -41,11 +50,10 @@ class InstagramLinksExtractor:
                 instagram_links.append('')
                 continue
             #print(url)
-            try:
-                
 
-                response = requests.get(url)
-            except:
+            try:
+                response = requests.get(url, timeout=15)
+            except Exception as e:
                 instagram_links.append('')
                 continue
             
@@ -62,7 +70,7 @@ class InstagramLinksExtractor:
         print(df_instagram)
         #Criar nova coluna no .csv
         file_name= os.path.splitext(os.path.basename(self.file_path))
-        cvs_name= 'data/output/{self.file_name}-withInstagram.csv'
+        cvs_name= 'data/output/{}-withInstagram.csv'.format(file_name[0])
         df['Instagram'] = instagram_links
         df.to_csv(cvs_name, index=False)
         # Concatena o novo dataframe com o dataframe original

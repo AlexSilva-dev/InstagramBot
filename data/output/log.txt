@@ -1,0 +1,150 @@
+		Arquivo log:
+
+24/04/2023 10:50	main>run("name 'objInstagramLinksExtractor' is not defined",)
+
+		24/04/2023 10:51	main>run
+("name 'objInstagramLinksExtractor' is not defined",)
+
+
+		24/04/2023 10:52	main>run
+("name 'objInstagramLinksExtractor' is not defined",)
+
+
+		24/04/2023 11:02	main>run
+("name 'objInstagramLinksExtractor' is not defined",)
+
+
+		24/04/2023 11:03	main>run
+("'InstagramLinksExtractor' object has no attribute 'log'",)
+
+
+		24/04/2023 11:03	main>run
+("'InstagramLinksExtractor' object has no attribute 'log'",)
+
+
+		24/04/2023 11:03	main>run
+("'InstagramLinksExtractor' object has no attribute 'log'",)
+
+
+		24/04/2023 11:07	main>run
+("InstagramLinksExtractor.__init__() missing 1 required positional argument: 'log'",)
+
+
+		24/04/2023 11:08	main>run
+("local variable 'log' referenced before assignment",)
+
+
+		24/04/2023 11:09	InstagramLinksExtractor>extract_linksErro ao ler arquivo 
+
+('Website',)
+
+
+		24/04/2023 11:09	InstagramBot>runErro ao ler coluna/arquivo 
+
+("Invalid file path or buffer object type: <class 'NoneType'>",)
+
+
+		24/04/2023 11:20	main>run
+("Cannot save file into a non-existent directory: 'data/output/data_sheet'",)
+
+
+		24/04/2023 11:23	main>run
+("'InstagramLinksExtractor' object has no attribute 'file_name'",)
+
+
+		24/04/2023 11:26	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		24/04/2023 11:29	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		24/04/2023 11:33	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		24/04/2023 11:35	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		24/04/2023 13:20	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/renatadaros.odontologia/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		24/04/2023 13:54	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/renatadaros.odontologia/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		24/04/2023 13:55	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		24/04/2023 14:12	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('Site',)
+
+
+		24/04/2023 14:12	InstagramBot>run
+Erro ao ler coluna/arquivo 
+
+("Invalid file path or buffer object type: <class 'NoneType'>",)
+
+
+		24/04/2023 14:21	InstagramBot>run
+Erro ao ler coluna/arquivo 
+
+('Can only use .str accessor with string values!',)
+
+
+		24/04/2023 14:24	InstagramBot>run
+Erro ao ler coluna/arquivo 
+
+('Can only use .str accessor with string values!',)
+
+
+		24/04/2023 14:26	InstagramBot>run
+Erro ao ler coluna/arquivo 
+
+('Can only use .str accessor with string values!',)
+
+
+		24/04/2023 14:50	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		24/04/2023 15:07	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		24/04/2023 15:07	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		24/04/2023 15:08	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
