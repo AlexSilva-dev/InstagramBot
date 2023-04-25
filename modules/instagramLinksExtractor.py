@@ -23,10 +23,11 @@ class InstagramLinksExtractor:
                 now = datetime.datetime.now()
                 hour = now.strftime("%d/%m/%Y %H:%M")    
                 log.write('\n\n\n\t\t' + hour + '\tInstagramLinksExtractor>extract_links')
-                log.write('\nErro ao ler arquivo \n')
+                log.write('\nErro ao ler arquivo \n' + self.file_path + ' coluna: ' + self.column_name)
                 log.write('\n' + str(e.args))
             
-            print("\n\nErro, verifique se o caminho e a coluna foi digitada corretamente", file=sys.stderr)
+            print("\n\nErro, verifique se o caminho e a coluna foi digitada corretamente\n"
+                  +self.file_path + ' coluna: ' + self.column_name, file=sys.stderr)
             print("InstagramLinksExtractor>extract_links\n\n", file=sys.stderr)
 
             exit()

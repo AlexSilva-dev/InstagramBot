@@ -19,8 +19,8 @@ class Main:
     def input(self, nameFile):
         
         #file_path = input("Digite o caminho do arquivo .csv que será usado: \n")
-        #column_name = input("Digite o nome da coluna que contem o site (o nome tem que ser identico): \n") 
-        self.column_name= "Site"
+        self.column_name = input("Digite o nome da coluna que contem o site (o nome tem que ser identico):\n> ") 
+        #self.column_name= "Site"
         self.file_path+=nameFile[0]
         self.txtInput=''
         self.listMessage=[]

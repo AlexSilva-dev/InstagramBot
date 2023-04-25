@@ -1,15 +1,8 @@
-2023/04/24-14:47:50.459 3 Reusing MANIFEST /home/alex/MyCodes/Python/InstagramBot/selenium/Default/Local Storage/leveldb/MANIFEST-000001
-2023/04/24-14:47:50.460 3 Recovering log #26
-2023/04/24-14:47:50.460 3 Reusing old log /home/alex/MyCodes/Python/InstagramBot/selenium/Default/Local Storage/leveldb/000026.log 
-2023/04/24-15:04:56.489 f Level-0 table #30: started
-2023/04/24-15:04:56.493 f Level-0 table #30: 10564 bytes OK
-2023/04/24-15:04:56.498 f Delete type=0 #26
-2023/04/24-15:04:56.499 f Compacting 4@0 + 1@1 files
-2023/04/24-15:04:56.508 f Generated table #31@0: 1401 keys, 19574 bytes
-2023/04/24-15:04:56.508 f Compacted 4@0 + 1@1 files => 19574 bytes
-2023/04/24-15:04:56.515 f compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/04/24-15:04:56.516 f Delete type=2 #20
-2023/04/24-15:04:56.516 f Delete type=2 #23
-2023/04/24-15:04:56.516 f Delete type=2 #18
-2023/04/24-15:04:56.517 f Delete type=2 #30
-2023/04/24-15:04:56.517 f Delete type=2 #27
+2023/04/25-10:53:21.955 3 Reusing MANIFEST /home/alex/MyCodes/Python/InstagramBot/selenium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/04/25-10:53:21.956 3 Recovering log #33
+2023/04/25-10:53:21.956 3 Level-0 table #36: started
+2023/04/25-10:53:21.959 3 Level-0 table #36: 12842 bytes OK
+2023/04/25-10:53:21.967 3 Delete type=0 #33
+2023/04/25-11:13:27.058 e Level-0 table #39: started
+2023/04/25-11:13:27.061 e Level-0 table #39: 7591 bytes OK
+2023/04/25-11:13:27.065 e Delete type=0 #37

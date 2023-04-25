@@ -1,3 +1,4 @@
+import os
 import sys
 import time
 import random
@@ -24,13 +25,19 @@ class InstagramBot:
         self.log=log
         self.listMessage=listMessage
         self.cont_messagesSent=0
+        self.input_path='data/output/'
         options = webdriver.ChromeOptions()
         options.add_argument("user-data-dir=selenium")
+        self.options = webdriver.ChromeOptions()
+        self.options.add_argument('user-data-dir=selenium')
+        self.options.add_argument('--headless')
+        
         self.driver = webdriver.Chrome(options=options)
         self.waitTime=60
         if(login==True):
             try:
                 self.driver.get('https://www.instagram.com/')
+                
                 while self.driver.window_handles:
                     try:
                         # código para acessar a janela
@@ -40,7 +47,11 @@ class InstagramBot:
                         break
             except:
                 print("\n\nLogin feito com sucesso!\n\n")
-                self.driver = webdriver.Chrome(options=options)
+
+
+                # ATIVAR MODO BACKGROUND
+                #self.driver = webdriver.Chrome(options=self.options)
+               
                 return
         else:
             return
@@ -62,14 +73,19 @@ class InstagramBot:
 
         now = datetime.datetime.now()
         hour = now.strftime("%d-%m-%Y_%H-%M")
+        path_screenshot=self.input_path + "screenshot-{}.png".format(hour)
         try:
-            mensagem_button = WebDriverWait(self.driver, random.randrange(3, 10)).until(
-                EC.presence_of_element_located((By.XPATH, '//div[@class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x18d9i69 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x1lku1pv x1a2a7pz x6s0dn4 xjyslct x1lq5wgf xgqcy7u x30kzoy x9jhf4c x1ejq31n xd10rxx x1sy0etr x17r0tee x9f619 x1ypdohk x78zum5 x1i0vuye xwhw2v2 x10w6t97 xl56j7k x17ydfre x1f6kntn x1swvt13 x1pi30zi x2b8uid xlyipyv x87ps6o x14atkfc x1n2onr6 x1d5wrs8 x1gjpkn9 x175jnsf xsz8vos"]')))
-            self.driver.save_screenshot("screenshot-{}.png".format(hour))
-            mensagem_button.click()
-        except:
-            self.driver.save_screenshot("screenshot1-{}.png".format(hour))
+            try:
+                element_notification = WebDriverWait(self.driver, 4).until(
+                EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div/div[3]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]')))
+                element_notification.click()
+            except Exception as e:
 
+                mensagem_button = WebDriverWait(self.driver, random.randrange(3, 10)).until(
+                    EC.presence_of_element_located((By.XPATH, '//div[@class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x18d9i69 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x1lku1pv x1a2a7pz x6s0dn4 xjyslct x1lq5wgf xgqcy7u x30kzoy x9jhf4c x1ejq31n xd10rxx x1sy0etr x17r0tee x9f619 x1ypdohk x78zum5 x1i0vuye xwhw2v2 x10w6t97 xl56j7k x17ydfre x1f6kntn x1swvt13 x1pi30zi x2b8uid xlyipyv x87ps6o x14atkfc x1n2onr6 x1d5wrs8 x1gjpkn9 x175jnsf xsz8vos"]')))
+                self.driver.save_screenshot(path_screenshot )
+                mensagem_button.click()
+        except:
             try:
                 follow_button = self.driver.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/div[2]/section/main/div/header/section/div[1]/div[1]/div/div[1]/button')
                 follow_button.click()
@@ -83,6 +99,8 @@ class InstagramBot:
                     log.write('\n' + str(e.args))
                 return 
         
+        if(os.path.exists(path_screenshot)):
+            os.remove(path_screenshot)
         
         try:
             # Espera até que o campo esteja visível na página
@@ -90,6 +108,7 @@ class InstagramBot:
             
             # Digita no campo
             randomMessage = self.listMessage[random.randrange(len(self.listMessage))]
+            randomMessage+='\n'
             time.sleep(random.randrange(1,3))
             action_chains = ActionChains(self.driver)
             for char in randomMessage:

@@ -148,3 +148,459 @@ Erro ao escrever no campo e enviar a mensagem
 Erro ao escrever no campo e enviar a mensagem 
 
 ()
+
+
+		25/04/2023 09:25	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('Site',)
+
+
+		25/04/2023 09:26	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('Site',)
+
+
+		25/04/2023 09:26	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('Site',)
+
+
+		25/04/2023 09:27	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('Site',)
+
+
+		25/04/2023 09:27	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('Site',)
+
+
+		25/04/2023 09:28	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('',)
+
+
+		25/04/2023 09:28	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('',)
+
+
+		25/04/2023 09:28	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('',)
+
+
+		25/04/2023 09:29	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('',)
+
+
+		25/04/2023 09:29	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+
+('',)
+
+
+		25/04/2023 09:31	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+data_sheet/a.csv
+('',)
+
+
+		25/04/2023 09:34	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+data_sheet/a.csv coluna: 
+('',)
+
+
+		25/04/2023 09:35	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+data_sheet/a.csv coluna: 
+('',)
+
+
+		25/04/2023 09:54	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/lekdsilva/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 09:54	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/tedsys.oficial/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 09:54	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/sigasantaaventura/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 09:54	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/schizofedro/ 
+
+https://www.instagram.com/schizofedro/
+()
+
+
+		25/04/2023 10:22	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/lekdsilva/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:22	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/tedsys.oficial/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:22	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/sigasantaaventura/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:22	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/schizofedro/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:23	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/lekdsilva/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:23	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/tedsys.oficial/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:28	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/lekdsilva/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:28	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
+
+https://www.instagram.com/tedsys.oficial/
+()
+
+
+		25/04/2023 10:28	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
+
+https://www.instagram.com/sigasantaaventura/
+()
+
+
+		25/04/2023 10:28	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/schizofedro/ 
+
+https://www.instagram.com/schizofedro/
+()
+
+
+		25/04/2023 10:29	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/lekdsilva/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:29	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
+
+https://www.instagram.com/tedsys.oficial/
+()
+
+
+		25/04/2023 10:29	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
+
+https://www.instagram.com/sigasantaaventura/
+()
+
+
+		25/04/2023 10:29	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/schizofedro/ 
+
+https://www.instagram.com/schizofedro/
+()
+
+
+		25/04/2023 10:43	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/lekdsilva/ 
+
+https://www.instagram.com/lekdsilva/
+("HTTPConnectionPool(host='localhost', port=57869): Max retries exceeded with url: /session/673b52f177f29da39e29f7707b93ce4d/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8d79b9d8d0>: Failed to establish a new connection: [Errno 111] Connection refused'))",)
+
+
+		25/04/2023 10:43	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
+
+https://www.instagram.com/tedsys.oficial/
+("HTTPConnectionPool(host='localhost', port=57869): Max retries exceeded with url: /session/673b52f177f29da39e29f7707b93ce4d/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8d79b9ddb0>: Failed to establish a new connection: [Errno 111] Connection refused'))",)
+
+
+		25/04/2023 10:43	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
+
+https://www.instagram.com/sigasantaaventura/
+("HTTPConnectionPool(host='localhost', port=57869): Max retries exceeded with url: /session/673b52f177f29da39e29f7707b93ce4d/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8d79b9ca30>: Failed to establish a new connection: [Errno 111] Connection refused'))",)
+
+
+		25/04/2023 10:43	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/schizofedro/ 
+
+https://www.instagram.com/schizofedro/
+("HTTPConnectionPool(host='localhost', port=57869): Max retries exceeded with url: /session/673b52f177f29da39e29f7707b93ce4d/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8d79b9e380>: Failed to establish a new connection: [Errno 111] Connection refused'))",)
+
+
+		25/04/2023 10:44	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/tedsys.oficial/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 10:44	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
+
+https://www.instagram.com/sigasantaaventura/
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+
+		25/04/2023 10:44	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/schizofedro/ 
+
+https://www.instagram.com/schizofedro/
+("HTTPConnectionPool(host='localhost', port=33547): Max retries exceeded with url: /session/188ad37df0124177c1b695db5c79dfbd/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb9abe91720>: Failed to establish a new connection: [Errno 111] Connection refused'))",)
+
+
+		25/04/2023 10:50	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+data_sheet/a.csv coluna: Site
+('Site',)
+
+
+		25/04/2023 10:58	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 10:58	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:06	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:09	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:10	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/drasandracorrearodrigues/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 11:10	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:10	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:10	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:10	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:11	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:11	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:11	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:11	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:11	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/tg.harmonize/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 11:11	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:12	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:12	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:12	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:12	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:12	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:13	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:13	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/lavite_odontologiaeestetica/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 11:13	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:13	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:13	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:14	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:14	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/odontologia_rafael_pocztaruk/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 11:14	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:14	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:14	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 11:14	InstagramBot>send_messagem
+Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
+
+https://www.instagram.com/piccolivicente/
+("'WebDriver' object has no attribute 'find_element_by_xpath'",)
+
+
+		25/04/2023 11:14	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
