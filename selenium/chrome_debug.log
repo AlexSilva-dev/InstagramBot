@@ -1,172 +1,51 @@
-[37197:37197:0425/105321.741112:WARNING:chrome_main_delegate.cc(594)] This is Chrome version 112.0.5615.49 (not a warning)
-[37197:37197:0425/105321.785610:WARNING:chrome_browser_cloud_management_controller.cc(87)] Could not create policy manager as CBCM is not enabled.
-[37197:37197:0425/105321.938729:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
-[37197:37197:0425/105321.945233:WARNING:account_consistency_mode_manager.cc(70)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[37312:37312:0425/105322.051915:WARNING:sandbox_linux.cc(393)] InitializeSandbox() called with multiple threads in process gpu-process.
-[37312:37312:0425/105322.057332:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.057502:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.057617:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.057708:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.057801:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.057902:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.057993:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058078:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058164:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058248:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058345:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058441:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058533:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058618:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058702:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058787:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058891:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.058979:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059065:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059149:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059234:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059331:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059422:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059507:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059590:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059675:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059759:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059874:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.059970:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060055:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060139:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060223:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060325:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060415:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060500:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060593:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060679:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060771:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060877:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37312:37312:0425/105322.060972:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
-[37197:37197:0425/105322.217177:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
-[37312:37312:0425/105322.935006:ERROR:shared_image_manager.cc(199)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[37312:37312:0425/105322.935653:ERROR:shared_image_manager.cc(199)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
-[37197:37285:0425/105328.738568:ERROR:udev_watcher.cc(98)] Failed to begin udev enumeration.
-[37197:37197:0425/110955.782193:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111014.449261:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111024.120905:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111033.898567:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111045.241174:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111054.138376:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111107.945197:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111117.705882:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111129.791263:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111152.681372:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111205.328872:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111217.764175:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111226.662364:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111237.166109:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111251.901864:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111302.541818:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111322.295891:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111337.591532:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111346.480717:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111358.106019:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111417.061530:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111425.481746:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111434.383263:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37197:37197:0425/111456.682357:INFO:CONSOLE(59)] "ErrorUtils caught an error:
-
-We're sorry, but something went wrong. Please try again. Client context:client_context_not_available
-
-Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs.", source: https://static.cdninstagram.com/rsrc.php/v3/yD/r/8RUebxOUmXy.js?_nc_x=Ij3Wp8lg5Kz (59)
-[37313:37324:0425/111458.848983:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
-[37313:37324:0425/111458.849124:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
-[37197:37197:0425/111458.880675:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[5488:5488:0425/151056.684762:WARNING:chrome_main_delegate.cc(594)] This is Chrome version 112.0.5615.49 (not a warning)
+[5488:5488:0425/151056.827979:WARNING:chrome_browser_cloud_management_controller.cc(87)] Could not create policy manager as CBCM is not enabled.
+[5488:5488:0425/151057.080320:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+[5488:5488:0425/151057.091976:WARNING:account_consistency_mode_manager.cc(70)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[5604:5604:0425/151057.228384:WARNING:sandbox_linux.cc(393)] InitializeSandbox() called with multiple threads in process gpu-process.
+[5604:5604:0425/151057.234565:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.234720:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.234826:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.234914:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235000:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235083:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235165:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235245:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235329:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235418:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235500:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235582:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235673:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235755:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235836:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.235919:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236004:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236088:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236170:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236252:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236333:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236414:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236494:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236575:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236670:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236757:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236853:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.236934:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237035:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237121:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237202:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237283:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237364:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237446:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237527:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237616:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237704:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237785:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237866:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5604:5604:0425/151057.237948:ERROR:gbm_wrapper.cc(255)] Failed to export buffer to dma_buf: No such file or directory (2)
+[5488:5488:0425/151057.358688:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[5488:5599:0425/151103.581784:ERROR:udev_watcher.cc(98)] Failed to begin udev enumeration.
+[5606:5616:0425/151111.925522:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
+[5606:5617:0425/151111.943644:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
+[5606:5617:0425/151111.943687:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
+[5488:5488:0425/151111.967128:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

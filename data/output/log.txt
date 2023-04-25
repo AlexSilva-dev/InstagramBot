@@ -604,3 +604,57 @@ https://www.instagram.com/piccolivicente/
 Erro ao escrever no campo e enviar a mensagem 
 
 ()
+
+
+		25/04/2023 15:08	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 15:08	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
+
+https://www.instagram.com/tedsys.oficial/
+()
+
+
+		25/04/2023 15:08	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
+
+https://www.instagram.com/sigasantaaventura/
+()
+
+
+		25/04/2023 15:08	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/schizofedro/ 
+
+https://www.instagram.com/schizofedro/
+()
+
+
+		25/04/2023 15:11	InstagramBot>send_messagem
+Erro ao escrever no campo e enviar a mensagem 
+
+()
+
+
+		25/04/2023 15:11	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
+
+https://www.instagram.com/tedsys.oficial/
+()
+
+
+		25/04/2023 15:11	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
+
+https://www.instagram.com/sigasantaaventura/
+()
+
+
+		25/04/2023 15:11	InstagramBot>send_messagem
+Erro no get da url; https://www.instagram.com/schizofedro/ 
+
+https://www.instagram.com/schizofedro/
+()
