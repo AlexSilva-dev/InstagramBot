@@ -53,7 +53,7 @@ class InstagramBot:
 
                 # ATIVAR MODO BACKGROUND
                 #self.driver = webdriver.Chrome(options=self.options)
-               
+                self.driver = webdriver.Chrome(options=options)
                 return
         else:
             return
