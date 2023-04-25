@@ -25,7 +25,7 @@ class Main:
         self.txtInput=''
         self.listMessage=[]
         if(os.path.exists(self.fileInput_path)):
-            with open(self.fileInput_path, 'r') as f:
+            with open(self.fileInput_path, 'r', encoding='utf-8') as f:
                 self.txtInput = f.read()
             
             if len(self.txtInput.strip())<=10:
@@ -53,7 +53,7 @@ class Main:
 
         self.log='data/output/log.txt'
         if(not os.path.isfile(self.log)):
-                with open(self.log, 'w') as log:
+                with open(self.log, 'w', encoding='utf-8') as log:
                     log.write('\t\tArquivo log:\n\n')
                 
         

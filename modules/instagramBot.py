@@ -28,8 +28,10 @@ class InstagramBot:
         self.input_path='data/output/'
         options = webdriver.ChromeOptions()
         options.add_argument("user-data-dir=selenium")
+        options.add_argument("--remote-debugging-port=9222")
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('user-data-dir=selenium')
+        self.options.add_argument("--remote-debugging-port=9222")
         self.options.add_argument('--headless')
         
         self.driver = webdriver.Chrome(options=options)
