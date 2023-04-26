@@ -13,7 +13,7 @@ class Main:
     def __init__(self):
         self.file_path ='data_sheet/'
         self.column_name=''
-        self.fileInput_path ='data/input/messagem.txt'
+        self.fileInput_path ='data/input/message.txt'
         self.txtInput=''
 
     def input(self, nameFile):

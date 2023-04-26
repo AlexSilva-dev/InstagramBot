@@ -3,82 +3,33 @@
 
 
 
-		25/04/2023 15:55	InstagramBot>send_messagem
+		26/04/2023 09:58	InstagramLinksExtractor>extract_links
+Erro ao ler arquivo 
+data_sheet/a.csv coluna: website
+('website',)
+
+
+		26/04/2023 09:59	InstagramBot>send_message
 Erro ao escrever no campo e enviar a mensagem 
 
 ()
 
 
-		25/04/2023 15:55	InstagramBot>send_messagem
+		26/04/2023 09:59	InstagramBot>send_message
 Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
 
 https://www.instagram.com/tedsys.oficial/
 ()
 
 
-		25/04/2023 15:55	InstagramBot>send_messagem
+		26/04/2023 09:59	InstagramBot>send_message
 Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
 
 https://www.instagram.com/sigasantaaventura/
 ()
 
 
-		25/04/2023 15:55	InstagramBot>send_messagem
-Erro no get da url; https://www.instagram.com/schizofedro/ 
-
-https://www.instagram.com/schizofedro/
-()
-
-
-		25/04/2023 15:55	InstagramBot>send_messagem
-Erro ao escrever no campo e enviar a mensagem 
-
-()
-
-
-		25/04/2023 15:55	InstagramBot>send_messagem
-Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
-
-https://www.instagram.com/tedsys.oficial/
-()
-
-
-		25/04/2023 15:55	InstagramBot>send_messagem
-Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
-
-https://www.instagram.com/sigasantaaventura/
-()
-
-
-		25/04/2023 15:55	InstagramBot>send_messagem
-Erro no get da url; https://www.instagram.com/schizofedro/ 
-
-https://www.instagram.com/schizofedro/
-()
-
-
-		25/04/2023 15:56	InstagramBot>send_messagem
-Erro ao clickar no botão de mensagem para abrir o direct da pagina alvo 
-
-https://www.instagram.com/lekdsilva/
-("'WebDriver' object has no attribute 'find_element_by_xpath'",)
-
-
-		25/04/2023 15:56	InstagramBot>send_messagem
-Erro no get da url; https://www.instagram.com/tedsys.oficial/ 
-
-https://www.instagram.com/tedsys.oficial/
-()
-
-
-		25/04/2023 15:56	InstagramBot>send_messagem
-Erro no get da url; https://www.instagram.com/sigasantaaventura/ 
-
-https://www.instagram.com/sigasantaaventura/
-()
-
-
-		25/04/2023 15:56	InstagramBot>send_messagem
+		26/04/2023 09:59	InstagramBot>send_message
 Erro no get da url; https://www.instagram.com/schizofedro/ 
 
 https://www.instagram.com/schizofedro/

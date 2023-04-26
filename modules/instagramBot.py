@@ -67,7 +67,7 @@ class InstagramBot:
                 with open(self.log, 'a') as log:
                     now = datetime.datetime.now()
                     hour = now.strftime("%d/%m/%Y %H:%M")    
-                    log.write('\n\n\n\t\t' + hour + '\tInstagramBot>send_messagem')
+                    log.write('\n\n\n\t\t' + hour + '\tInstagramBot>send_message')
                     log.write('\nErro no get da url; {} \n'.format(url))
                     log.write("\n"+url)
                     log.write('\n' + str(e.args))
@@ -95,7 +95,7 @@ class InstagramBot:
                 with open(self.log, 'a') as log:
                     now = datetime.datetime.now()
                     hour = now.strftime("%d/%m/%Y %H:%M")    
-                    log.write('\n\n\n\t\t' + hour + '\tInstagramBot>send_messagem')
+                    log.write('\n\n\n\t\t' + hour + '\tInstagramBot>send_message')
                     log.write('\nErro ao clickar no botão de mensagem para abrir o direct da pagina alvo \n')
                     log.write("\n"+url)
                     log.write('\n' + str(e.args))
@@ -127,11 +127,11 @@ class InstagramBot:
             with open(self.log, 'a') as log:
                 now = datetime.datetime.now()
                 hour = now.strftime("%d/%m/%Y %H:%M")    
-                log.write('\n\n\n\t\t' + hour + '\tInstagramBot>send_messagem')
+                log.write('\n\n\n\t\t' + hour + '\tInstagramBot>send_message')
                 log.write('\nErro ao escrever no campo e enviar a mensagem \n')
                 log.write('\n' + str(e.args))
             
-            print("Erro ao escrever no campo e enviar a mensagem  (InstagramBot>send_messagem)", file=sys.stderr)
+            print("Erro ao escrever no campo e enviar a mensagem  (InstagramBot>send_message)", file=sys.stderr)
             return
         self.cont_messagesSent+=1
 
@@ -157,7 +157,7 @@ class InstagramBot:
         for url in instagram_urls:
             self.send_message(url)
         self.driver.quit()
-        print(str(self.cont_messagesSent) + ' enviadas de ' + str(len(instagram_urls)), end='\n',flush=True)
+        print(str(self.cont_messagesSent) + ' enviadas de ' + str(len(instagram_urls))) #, end='\n',flush=True
 
 if __name__ == '__main__':
     bot = InstagramBot()
