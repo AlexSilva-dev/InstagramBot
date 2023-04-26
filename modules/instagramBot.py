@@ -31,12 +31,14 @@ class InstagramBot:
         options.add_argument("--remote-debugging-port=9222")
         self.options = webdriver.ChromeOptions()
         self.options.add_argument('user-data-dir=selenium')
-        self.options.add_argument("--remote-debugging-port=9222")
+        #self.options.add_argument("--remote-debugging-port=9222")
         self.options.add_argument('--headless')
         
-        self.driver = webdriver.Chrome(options=options)
+        
         self.waitTime=60
         if(login==True):
+            self.driver = webdriver.Chrome(options=options)
+
             try:
                 self.driver.get('https://www.instagram.com/')
                 
@@ -46,17 +48,21 @@ class InstagramBot:
                         time.sleep(1)  # espera 1 segundo antes de verificar novamente
 
                     except NoSuchWindowException:
+                        
                         break
             except:
                 print("\n\nLogin feito com sucesso!\n\n")
 
 
                 # ATIVAR MODO BACKGROUND
-                #self.driver = webdriver.Chrome(options=options) # Deixe essa linha comentada
-                self.driver = webdriver.Chrome(options=self.options) 
+                options.add_argument('--headless') # Descomenta essa linha
+                self.driver = webdriver.Chrome(options=options) 
+                #self.driver = webdriver.Chrome(options=self.options) 
                 
                 return
         else:
+            options.add_argument('--headless') # Descomenta essa linha
+            self.driver = webdriver.Chrome(options=options) 
             return
 
 
