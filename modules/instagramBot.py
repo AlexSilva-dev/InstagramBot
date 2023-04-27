@@ -29,10 +29,7 @@ class InstagramBot:
         options = webdriver.ChromeOptions()
         options.add_argument("user-data-dir=selenium")
         options.add_argument("--remote-debugging-port=9222")
-        self.options = webdriver.ChromeOptions()
-        self.options.add_argument('user-data-dir=selenium')
-        #self.options.add_argument("--remote-debugging-port=9222")
-        self.options.add_argument('--headless')
+        
         
         
         self.waitTime=60
@@ -55,13 +52,13 @@ class InstagramBot:
 
 
                 # ATIVAR MODO BACKGROUND
-                options.add_argument('--headless') # Descomenta essa linha
+                options.add_argument('--headless=new') # Descomenta essa linha
                 self.driver = webdriver.Chrome(options=options) 
                 #self.driver = webdriver.Chrome(options=self.options) 
                 
                 return
         else:
-            options.add_argument('--headless') # Descomenta essa linha
+            options.add_argument('--headless=new') # Descomenta essa linha
             self.driver = webdriver.Chrome(options=options) 
             return
 
@@ -82,7 +79,8 @@ class InstagramBot:
 
         now = datetime.datetime.now()
         hour = now.strftime("%d-%m-%Y_%H-%M")
-        path_screenshot=self.input_path + "screenshot-{}.png".format(hour)
+        path_screenshot=self.input_path + "screenshot_0-{}.png".format(hour)
+        path_screenshot1=self.input_path + "screenshot_1-{}.png".format(hour)
         try:
             try:
                 element_notification = WebDriverWait(self.driver, 4).until(
@@ -96,8 +94,18 @@ class InstagramBot:
                 mensagem_button.click()
         except:
             try:
-                follow_button = self.driver.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/div[2]/section/main/div/header/section/div[1]/div[1]/div/div[1]/button')
+                
+                
+                time.sleep(5)
+                follow_button = self.driver.find_element( 'xpath', '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/div[2]/section/main/div/header/section/div[1]/div[1]/div/div[1]/button')
                 follow_button.click()
+
+                time.sleep(7)
+                mensagem_button = WebDriverWait(self.driver, random.randrange(3, 10)).until(
+                    EC.presence_of_element_located((By.XPATH, '//div[@class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x18d9i69 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x1lku1pv x1a2a7pz x6s0dn4 xjyslct x1lq5wgf xgqcy7u x30kzoy x9jhf4c x1ejq31n xd10rxx x1sy0etr x17r0tee x9f619 x1ypdohk x78zum5 x1i0vuye xwhw2v2 x10w6t97 xl56j7k x17ydfre x1f6kntn x1swvt13 x1pi30zi x2b8uid xlyipyv x87ps6o x14atkfc x1n2onr6 x1d5wrs8 x1gjpkn9 x175jnsf xsz8vos"]')))
+                mensagem_button.click()
+                time.sleep(10)
+                
             except Exception as e:
                 with open(self.log, 'a') as log:
                     now = datetime.datetime.now()
@@ -108,9 +116,8 @@ class InstagramBot:
                     log.write('\n' + str(e.args))
                 return 
         
-        if(os.path.exists(path_screenshot)):
-            os.remove(path_screenshot)
-        
+        time.sleep(random.randint(3,5))
+        self.driver.save_screenshot(path_screenshot1)
         try:
             # Espera até que o campo esteja visível na página
             campo = WebDriverWait(self.driver, random.randrange(3,10)).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div/div[2]/div/section/div/div/div/div/div[2]/div[2]/div/div[2]/div/div/div[2]/textarea')))
@@ -141,6 +148,9 @@ class InstagramBot:
             print("Erro ao escrever no campo e enviar a mensagem  (InstagramBot>send_message)", file=sys.stderr)
             return
         self.cont_messagesSent+=1
+        if(os.path.exists(path_screenshot)):
+            os.remove(path_screenshot)
+            os.remove(path_screenshot1)
 
        
     def run(self, column:str='Instagram', file_csv:str=''):
