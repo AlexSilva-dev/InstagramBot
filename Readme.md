@@ -20,9 +20,15 @@
 ~~~
 python main.py arquivo.csv --login
 ~~~
-- No qual o arquivo.csv se refere a entrada que está dentro da pasta `data_sheet/`
-- E `--login` é um parametro usado para caso você está executando a primeira vez, para entrar na sua conta no Instagram.
-    - Para entrar na conta, o programa abre uma aba do Chrome no site do Instagram, a parti dai vc faz o login, e quando tiver tudo completo, vc fecha essa janela do Chrome. Com isso o programa começa a rodar.
+    1. Para fazer isso no WINDOWS 10 basta ir na pasta dos arquivos da automoção Clicar em Arquivos, ir em "Abrir o Windows PowerShell" > "Abrir o Windows PowerShell como administrador"
+        - ![235978507-64ff9616-ca59-4490-a1e0-5ef4aa122afc](https://user-images.githubusercontent.com/89947341/235983074-a9e32e19-d88c-4e40-b074-48e71da20aa7.png)
+
+    2. Após abrir o PowerShell, basta executar o comando `python main.py arquivo.csv --login`.
+
+#### Observações:
+- arquivo.csv se refere a entrada que está dentro da pasta `data_sheet/`
+- `--login` é um parametro usado para caso você está executando a primeira vez, para entrar na sua conta no Instagram.
+    - Para entrar na conta, o programa abre uma janela do Chrome no site do Instagram, a parti dai vc faz o login na conta que deseja automatizar o envio de mensagem, e quando tiver tudo completo, vc fecha essa janela do Chrome, para o programa identificar que o login foi realizado. Com isso o programa começará a rodar e fazer os envios.
 
 
 ### Instalação:
