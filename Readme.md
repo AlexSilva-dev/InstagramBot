@@ -3,6 +3,9 @@
 
 [GitHub](https://github.com/AlexSilva-dev/InstagramBot)
 
+## Objetivo da aplicação
+A aplicação tem como objetivo automatizar a captura de páginas do Instagram através das URLs de sites de empresas, e após essa captura, enviar mensagens de forma automatizada para as páginas encontradas.
+Em resumo, a aplicação pega um arquivo.csv aonde tem as URLs dos sites alvos, procura em cada site uma URL direcionando para o Instagram, salva essas URLs, e envia mensagens que estão no arquivo `data/input/message.txt`, para cada uma das URLs de instagram's encontradas.
 
 ## Usuário
 
@@ -12,7 +15,14 @@
 - Primeiro arquivo mais relevante `main.py`, esse arquivo é o inicio do programa, onde as coisas acontecem, ele é o arquivo que deve ser executado.
 - `data_sheet/`, é nela que deve ser armazenado a planilha .csv que contém os sites para capturar instagram, ou até mesmo a própria url do instagram (de forma direta).
 - `data/input/` - Nessa pasta vai ter as entradas, no momento só vai ter um arquivo `message.txt`
-    - `message.txt` - Nesse arquivo vai ser onde vai ter as mensagens
+    - `message.txt` - Nesse arquivo vai ser onde vai ter as mensagens.
+        - As mensagens não pode conter emojis
+        - Pular de linha é o mesmo que enviar a mensagem, ou seja, vai ficar mesagens separadas (*enviando para mesma pessoa*)
+        - Para definir que são 2 mensagens diferentes (para alternar e evitar ban), no final da mensagem, pula uma linha e põe `\fim`, esse "\fim" é um sinal para aplicação entender que a parti dali, é outra mensagem.
+        - ![Screenshot_20230503_143214](https://user-images.githubusercontent.com/89947341/236000167-d165740f-cdab-4043-9d59-13d5e8d689b4.png)
+        - ![Screenshot_20230503_144246](https://user-images.githubusercontent.com/89947341/236001390-922f069a-0655-43d5-b23a-12aa42bc4b31.png)
+
+
 - `data/output/` - Nessa pasta vamos ter a saída do programa, como os arquivos .csv com a coluna de instagram add, o arquivo `log.txt`, nele vai ter os erros encontrados durante a execução, tanto de páginas que não existem, tanto por erro ou bug no programa, e por fim, alguns prints programado, ao passar do tempo essa pasta pode ficar cheia, então é recomendado uma limpeza, vez ou outra.
 
 ### Como usar
