@@ -5,7 +5,7 @@
 
 ## Objetivo da aplicação
 A aplicação tem como objetivo automatizar a captura de páginas do Instagram através das URLs de sites de empresas, e após essa captura, enviar mensagens de forma automatizada para as páginas encontradas.
-Em resumo, a aplicação pega um arquivo.csv aonde tem as URLs dos sites alvos, procura em cada site uma URL direcionando para o Instagram, salva essas URLs, e envia mensagens que estão no arquivo `data/input/message.txt`, para cada uma das URLs de instagram's encontradas.
+Em resumo, a aplicação pega um arquivo.csv aonde tem as URLs dos sites alvos, procura em cada site uma URL direcionando para o Instagram, salva essas URLs, e envia as mensagens que estão no arquivo `data/input/message.txt`, para cada uma das URLs de Instagram's encontradas.
 
 ## Usuário
 
