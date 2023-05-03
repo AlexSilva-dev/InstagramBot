@@ -25,6 +25,10 @@ python main.py arquivo.csv --login
     - ![235978507-64ff9616-ca59-4490-a1e0-5ef4aa122afc](https://user-images.githubusercontent.com/89947341/235983074-a9e32e19-d88c-4e40-b074-48e71da20aa7.png)
 
 2. Após abrir o PowerShell, basta executar o comando `python main.py arquivo.csv --login`.
+    - ![png](https://user-images.githubusercontent.com/89947341/235984337-e8f9e01d-767f-4a54-847e-4e68db6092df.png)
+3. Nesse momento irá pedir para vc digitar o nome da coluna que contém as URLs no arquivo.csv de entrada. É importante que o nome seja identico.
+    - Exemplo: se no meu arquivo.csv a coluna que está a URL o nome é; "Sites", vc vai digitar "Sites" no PowerShell e aperta `enter` do teclado.
+5. Após essa etapa irá começar a execução do programa, caso tudo ocorreu bem. Como está com o parametro `--login`, irá abrir uma janela no Instagram para fazer o login da conta. Após realizar o login, basta fechar a **Janela** do Chrome, que o programa começará a enviar as mensagens.
 
 #### Observações:
 - arquivo.csv se refere a entrada que está dentro da pasta `data_sheet/`
