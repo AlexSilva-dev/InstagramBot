@@ -1,8 +1,11 @@
-[41933:41933:0427/105402.975224:WARNING:chrome_main_delegate.cc(594)] This is Chrome version 112.0.5615.49 (not a warning)
-[41933:41933:0427/105403.025617:WARNING:chrome_browser_cloud_management_controller.cc(87)] Could not create policy manager as CBCM is not enabled.
-[41933:41933:0427/105403.068564:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
-[41933:41933:0427/105403.075032:WARNING:account_consistency_mode_manager.cc(70)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[42038:42038:0427/105403.089037:WARNING:sandbox_linux.cc(393)] InitializeSandbox() called with multiple threads in process gpu-process.
-[41933:41933:0427/105403.106707:WARNING:cursor_loader.cc(123)] Failed to load a platform cursor of type kNull
-[41933:41933:0427/105403.230031:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
-[41933:42023:0427/105408.460989:ERROR:udev_watcher.cc(98)] Failed to begin udev enumeration.
+[84660:84660:0427/142142.129826:WARNING:chrome_main_delegate.cc(594)] This is Chrome version 112.0.5615.49 (not a warning)
+[84660:84660:0427/142142.181313:WARNING:chrome_browser_cloud_management_controller.cc(87)] Could not create policy manager as CBCM is not enabled.
+[84660:84660:0427/142142.273915:ERROR:chrome_browser_cloud_management_controller.cc(162)] Cloud management controller initialization aborted as CBCM is not enabled.
+[84660:84660:0427/142142.279182:WARNING:account_consistency_mode_manager.cc(70)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[84760:84760:0427/142142.305344:WARNING:sandbox_linux.cc(393)] InitializeSandbox() called with multiple threads in process gpu-process.
+[84660:84660:0427/142142.311749:WARNING:cursor_loader.cc(123)] Failed to load a platform cursor of type kNull
+[84660:84660:0427/142142.438437:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[84660:84748:0427/142148.677348:ERROR:udev_watcher.cc(98)] Failed to begin udev enumeration.
+[84761:86177:0427/142617.214558:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
+[84761:86177:0427/142617.214660:WARNING:sqlite_persistent_store_backend_base.cc(159)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:207 to client_task_runner_.
+[84660:84660:0427/142617.225953:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
