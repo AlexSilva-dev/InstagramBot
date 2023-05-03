@@ -1,14 +1,13 @@
 
 # Documentação
 
-
+[GitHub](https://github.com/AlexSilva-dev/InstagramBot)
 
 
 ## Usuário
 
-### uso:
 
-#### Estrutura dos arquivos e pastas (usuário)
+### Estrutura dos arquivos e pastas (usuário)
 - Para usar é necessário entender algumas estruturas de pastas do programa e alguns arquivos.
 - Primeiro arquivo mais relevante `main.py`, esse arquivo é o inicio do programa, onde as coisas acontecem, ele é o arquivo que deve ser executado.
 - `data_sheet/`, é nela que deve ser armazenado a planilha .csv que contém os sites para capturar instagram, ou até mesmo a própria url do instagram (de forma direta).
@@ -16,7 +15,7 @@
     - `message.txt` - Nesse arquivo vai ser onde vai ter as mensagens
 - `data/output/` - Nessa pasta vamos ter a saída do programa, como os arquivos .csv com a coluna de instagram add, o arquivo `log.txt`, nele vai ter os erros encontrados durante a execução, tanto de páginas que não existem, tanto por erro ou bug no programa, e por fim, alguns prints programado, ao passar do tempo essa pasta pode ficar cheia, então é recomendado uma limpeza, vez ou outra.
 
-#### Como usar
+### Como usar
 - Para usar o programa, basta executar o `main.py` com o seguinte comando:
 ~~~
 python main.py arquivo.csv --login
