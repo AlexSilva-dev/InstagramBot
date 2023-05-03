@@ -12,9 +12,11 @@ Em resumo, a aplicação pega um arquivo.csv aonde tem as URLs dos sites alvos, 
 
 ### Estrutura dos arquivos e pastas (usuário)
 - Para usar é necessário entender algumas estruturas de pastas do programa e alguns arquivos.
+- ![Screenshot_20230503_152154](https://user-images.githubusercontent.com/89947341/236008834-d4f6883d-ac19-4b2e-8e33-0985ba8b102b.png)
 - Primeiro arquivo mais relevante `main.py`, esse arquivo é o inicio do programa, onde as coisas acontecem, ele é o arquivo que deve ser executado.
 - `data_sheet/`, é nela que deve ser armazenado a planilha .csv que contém os sites para capturar instagram, ou até mesmo a própria url do instagram (de forma direta).
 - `data/input/` - Nessa pasta vai ter as entradas, no momento só vai ter um arquivo `message.txt`
+    - ![Screenshot_20230503_152116](https://user-images.githubusercontent.com/89947341/236008703-fc101cc1-d7ec-4d7e-b7cc-d0aa465ff705.png)
     - `message.txt` - Nesse arquivo vai ser onde vai ter as mensagens.
         - As mensagens não pode conter emojis
         - Pular de linha é o mesmo que enviar a mensagem, ou seja, vai ficar mesagens separadas (*enviando para mesma pessoa*)
@@ -24,6 +26,7 @@ Em resumo, a aplicação pega um arquivo.csv aonde tem as URLs dos sites alvos, 
 
 
 - `data/output/` - Nessa pasta vamos ter a saída do programa, como os arquivos .csv com a coluna de instagram add, o arquivo `log.txt`, nele vai ter os erros encontrados durante a execução, tanto de páginas que não existem, tanto por erro ou bug no programa, e por fim, alguns prints programado, ao passar do tempo essa pasta pode ficar cheia, então é recomendado uma limpeza, vez ou outra.
+    - ![Screenshot_20230503_152247](https://user-images.githubusercontent.com/89947341/236009039-b6ab0a36-0ccc-4e6e-b7ea-10ca53fad8c2.png)
 
 ### Como usar
 - Para usar o programa, basta executar o `main.py` com o seguinte comando:
